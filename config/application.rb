@@ -1,5 +1,5 @@
 # config/application.rb
-config.assets.initialize_on_precompile = false
+# 
 
 require File.expand_path('../boot', __FILE__)
 
@@ -24,3 +24,5 @@ module SimplecodecastsSas
     # config.i18n.default_locale = :de
   end
 end
+
+# config.assets.initialize_on_precompile = false #added to let upload to horuku but doesn't let work
